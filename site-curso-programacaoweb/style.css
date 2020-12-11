@@ -1,0 +1,169 @@
+body{
+    text-align: center;
+    font-family:Open Sans,sans sans-serif;
+    background-color:#b388ff ;
+    color:#fff;
+    margin:0%;
+    line-height:1.5;
+  
+  }
+  
+  h1{
+    font-size:60px;
+    color:#87CEEB;
+    font-family: 'Balsamiq Sans', cursive;
+  }
+  
+  
+  h2{
+    font-size:40px;
+      color:#4F4F4F;
+      font-family: 'Balsamiq Sans', cursive;
+      
+    }
+    h3{
+      font-size:22px;
+      font-weight:300;
+      font-style:italic;
+      color: #008B8B;
+    }
+    p{
+      font-size:20px;
+       font-family: 'Balsamiq Sans', cursive;
+    }
+  
+    .a{
+      color:#04ff9f
+    }
+  
+    .b{
+      color:#ff9e9e
+    }
+  
+    .c{
+      color:#ffe36d
+    }
+    section{
+      width:60%;
+      margin:0 auto;
+    }
+  
+    section section{
+  
+      width:100% ;
+    }
+    ul{
+      list-style-type:none;
+       line-height: 2;
+       padding-left:0%;
+    }
+    a{
+      text-decoration:none;
+      color:#4B0082;
+    font-weight: 700;
+    }
+    .imagem{
+      display: flex;
+      justify-content:center;
+    }
+  
+   
+  button{
+  background-color:#41f341;
+  border:solid;
+  border-width:1px;
+  border-color:transparent;
+  padding:2px 20px;
+  border-radius:3px;
+  }
+  
+  a{
+      text-decoration:none;
+      color: #99ffff;
+    font-weight: 700;
+    }
+  
+    .principal{
+    background: #ff6cb5;
+    height: 45px;
+    max-width:60%;
+    margin:0 auto;
+  }
+  
+  .principal a{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: normal;
+  }
+  
+  .principal li{
+    display: inline-block;
+    line-height:2.5;
+    margin:0 89px;
+  }
+  button{
+  background-color:#41f341;
+  border:solid;
+  border-width:1px;
+  border-color:transparent;
+  padding:2px 20px;
+  border-radius:3px;
+  }
+  
+  .parallax-container {
+    height: "your height here";
+  }
+
+  .opacidade:hover{
+    opacity: 0.5;
+  }
+
+.cadastro{	
+	background-color: #ccc;
+	width: 70%;
+	border-radius: 30px;
+	padding:20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.cadastro input{
+	width: 350px;
+	height: 30px;
+	border-radius: 30px;
+	border: 1px solid #ccc;
+	outline: none;
+	padding-left: 10px;
+	margin-bottom: 10px;
+
+}
+.cadastro-int{
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+}
+.logo{
+	width: 100%;
+	height: 200px;
+	display: flex;	
+	justify-content: center;
+	margin-bottom: 10px;
+}
+.logo img {
+	width:auto;
+	height: 200px;
+}
+.botoes{
+	display: flex;
+	justify-content: space-between;
+}
+.botoes input{
+	width: 170px;
+	height: 30px;
+	background-image: linear-gradient(-50deg, #2af977,#1cabd5);
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	cursor: pointer;		
+}
